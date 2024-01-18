@@ -29,7 +29,7 @@ public class TimeZoneExample {
 
         System.out.println("---------------------------------------------------------------");
         ZonedDateTime zonedDateTime = ZonedDateTime.now(ZoneId.of("Asia/Kolkata"));
-        System.out.println("Zoned Date Time: " + zonedDateTime.toString());
+        System.out.println("Zoned Date Time: " + zonedDateTime);
         System.out.println("Date Time: " + zonedDateTime.toLocalDateTime());
         System.out.println("Day of Month: " + zonedDateTime.toLocalDateTime().getDayOfMonth());
     }
